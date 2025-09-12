@@ -1,0 +1,18 @@
+#Crie uma lista com os números de 1 a 10 e use um loop para imprimir cada número elevado ao quadrado.
+lista_de_numeros = []
+
+for n in range(0, 11):
+    lista_de_numeros.append(n)
+
+    print(n**2)
+
+#Dada a lista ["Python", "Java", "C++", "JavaScript"], remova o item "C++" e adicione "Ruby".
+lista_de_linguagens = ["Python", "Java", "C++", "JavaScript"]
+trocar_linguagem = lista_de_linguagens.index("C++")
+lista_de_linguagens[trocar_linguagem] = "Ruby"
+
+print(lista_de_linguagens)
+
+#Crie um dicionário para armazenar informações de um livro, incluindo título, autor e ano de publicação. Imprima cada informação.
+#Escreva um programa que conta o número de ocorrências de cada caractere em uma string usando um dicionário.
+#Dada a lista ["maçã", "banana", "cereja"] e o dicionário {"maçã": 0.45, "banana": 0.30, "cereja": 0.65}, calcule o preço total da lista de compras.
